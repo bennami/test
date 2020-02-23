@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50c36150-d46f-481c-8e9d-aee2a57fcc4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interfaceExample/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/classes/dog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/includes/autoLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstracts/abstractClassExample/Payment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstracts/classes/BuyProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abstracts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnonymousExample/classes/Simple.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnonymousExample/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DarabaseExample/classes/dbh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DarabaseExample/classes/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DarabaseExample/includes/class-autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DarabaseExample/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/includes/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/classes/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +35,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DarabaseExample" />
       <recent name="$PROJECT_DIR$/oop/classes" />
     </key>
   </component>
@@ -60,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582389189003</updated>
-      <workItem from="1582389190177" duration="10682000" />
+      <workItem from="1582389190177" duration="13589000" />
     </task>
     <servers />
   </component>
@@ -68,14 +75,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="356" key="NewPhpClassDialog" timestamp="1582463558143">
+    <state x="576" y="50" key="CommitChangelistDialog2" timestamp="1582466517353">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="617" y="356" key="NewPhpClassDialog/0.23.1440.822@0.23.1440.822" timestamp="1582463558143" />
-    <state x="651" y="463" key="NewPhpFileDialog" timestamp="1582464824251">
+    <state x="576" y="50" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1582466517353" />
+    <state x="617" y="356" key="NewPhpClassDialog" timestamp="1582468988950">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="651" y="463" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1582464824251" />
+    <state x="617" y="356" key="NewPhpClassDialog/0.23.1440.822@0.23.1440.822" timestamp="1582468988950" />
+    <state x="651" y="463" key="NewPhpFileDialog" timestamp="1582468330905">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="651" y="463" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1582468330905" />
     <state x="715" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1582411839259">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
