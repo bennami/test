@@ -1,7 +1,3 @@
-<?php
-require 'includes/Person.php';
-?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,12 +5,19 @@ require 'includes/Person.php';
 </head>
 <body>
 <?php
+ini_set('display_errors', "1");
+ini_set('display_startup_errors', "1");
+error_reporting(E_ALL);
+
+///AUTOLOADER
+require 'includes/autoLoader.php';
 
 //RECAP CLASS OBJECT
 //$object = new Person('tim','blue','30');
 //echo $object->getName();
 
 //STATIC PROPERTIES
+// using scope resolution operator (::)
 //echo Person::$drinkingAge;
 
 //STATIC FUNCTIONS
@@ -26,7 +29,13 @@ require 'includes/Person.php';
 //$object = new Person('tim','blue','30');
 //$object->getFingers();
 
+//CONSTANTS, you can call them without instantiating as well
+//$motto = Person::MOTTO;
+//echo $motto
 
+//EXTENDED CLASSES, inherit properties of parent
+//echo dog::MOTTO;
+//echo dog::motto();
 
 
 ?>

@@ -12,6 +12,9 @@ class Person{
     //public static $drinkingAge = 18;
     public static $fingers = 10;
 
+    //constant
+    const MOTTO = 'had to do it to em';
+
 
     public function __construct($name,$eyeColor,$age){
     $this->name=$name;
