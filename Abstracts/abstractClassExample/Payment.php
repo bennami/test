@@ -8,6 +8,6 @@ abstract class Visa {
     return 'perform payment';
     }
 
-    //u can only create abstractClassExample methods inside abstractClassExample classes
+    //u can only create abstract methods inside abstract classes
     abstract public function getPayment();
 }

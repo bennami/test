@@ -6,6 +6,6 @@ error_reporting(E_ALL);
 class BuyProduct extends Visa{
 
     public function getPayment(){
-    return$this->visaPayment();
+    return $this->visaPayment();
     }
 }

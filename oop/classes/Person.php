@@ -9,8 +9,8 @@ class Person{
     Private $eyeColor;
     Private $age;
 
-    //public static $drinkingAge = 18;
-    public static $fingers = 10;
+    public static $drinkingAge = 18;
+    private static $fingers = 10;
 
     //constant
     const MOTTO = 'had to do it to em';
@@ -22,13 +22,13 @@ class Person{
     $this->age=$age;
     }
 
-    public static function setFingers($howMany){
+   public static function setFingers($howMany){
          return self::$fingers = $howMany;
     }
 
-   /* public function getFingers(){
+    public function getFingers(){
         return self::$fingers;
-    }*/
+    }
 
     public function getName(){
         return $this->name;

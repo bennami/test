@@ -15,6 +15,7 @@ class Paypal implements PaymentInterface, LoginInterface {
     {
         // TODO: Implement payNow() method.
     }
+
     public function paymentProcess(){
         $this->loginFirst();
         $this->payNow();
@@ -48,11 +49,18 @@ class Cash  implements PaymentInterface{
     }
 }
 
+
 class BuyProduct{
-    public function pay(PaymentInterface $paymentType){
+    public function pay(Cash $paymentType){
         $paymentType->paymentProcess();
     }
 }
+
+/*class BuyProduct{
+    public function pay(PaymentInterface $paymentType){
+        $paymentType->paymentProcess();
+    }
+}*/
 
 
 $paymentType = new Visa();

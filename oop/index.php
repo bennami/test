@@ -30,8 +30,8 @@ require 'includes/autoLoader.php';
 //$object->getFingers();
 
 //CONSTANTS, you can call them without instantiating as well
-//$motto = Person::MOTTO;
-//echo $motto
+$motto = Person::MOTTO;
+echo $motto
 
 //EXTENDED CLASSES, inherit properties of parent
 //echo dog::MOTTO;
