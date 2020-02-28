@@ -1,2 +1,0 @@
-# phpguestbook
-Making a guestbook

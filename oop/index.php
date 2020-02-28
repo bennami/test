@@ -13,8 +13,10 @@ error_reporting(E_ALL);
 require 'includes/autoLoader.php';
 
 //RECAP CLASS OBJECT
-//$object = new Person('tim','blue','30');
-//echo $object->getName();
+$object = new Person('tim','blue','30');
+echo $object->getName();
+$dog = new dog('tim','blue','30');
+echo $dog->getFingers();
 
 //STATIC PROPERTIES
 // using scope resolution operator (::)
@@ -30,8 +32,8 @@ require 'includes/autoLoader.php';
 //$object->getFingers();
 
 //CONSTANTS, you can call them without instantiating as well
-$motto = Person::MOTTO;
-echo $motto
+//$motto = Person::MOTTO;
+//echo $motto
 
 //EXTENDED CLASSES, inherit properties of parent
 //echo dog::MOTTO;

@@ -28,6 +28,7 @@ class Person{
 
     public function getFingers(){
         return self::$fingers;
+
     }
 
     public function getName(){
